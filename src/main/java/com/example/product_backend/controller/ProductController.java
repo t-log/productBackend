@@ -13,6 +13,9 @@ public class ProductController {
     @GetMapping("/viewall")
     public String viewProductPage(){return "Add view page";}
 
+    @PostMapping("/delete")
+    public String deleteProductPage(){return "Delete view page";}
+
 
 
 }
