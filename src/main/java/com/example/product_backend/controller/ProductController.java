@@ -4,8 +4,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
 public class ProductController {
-    @PostMapping
+    @PostMapping("/add")
     public String addProductPage(){return "Add product page";}
+
+    @PostMapping("/search")
+    public String searchProductPage(){return "Add search page";}
 
 
 
