@@ -10,6 +10,9 @@ public class ProductController {
     @PostMapping("/search")
     public String searchProductPage(){return "Add search page";}
 
+    @GetMapping("/viewall")
+    public String viewProductPage(){return "Add view page";}
+
 
 
 }
